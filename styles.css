@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-home {
+    background-color: #a94442;
+    border-color: #e7e7e7;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 0px;
+    padding-bottom: 2rem;
+}
+
+.navbar-brand:hover{
+    color: black;
+    transition: 0.3s;
+}
+
+.navbar-collapse{
+    padding-top: 1rem;
+}
+
+.my-brand{
+    padding-top: 2.7rem;
+}
+
+.navbar-home .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .my-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel-content {
+    height: 500px;
+}
+
+.about-pizza{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+.pizza-types{
+	margin-top: 3rem;
+    margin-bottom: 2rem;   
+}
+
+.about-pizza-name{
+    margin-bottom: 4rem;
+}
+
+.types-of-pizza{
+    margin-bottom: 4rem;
+}
+
+.footer{
+	background-color: #a94442;
+	padding: 1.5rem 0;
+	color: #fff;
+}
+
+.col-md-3 {
+    width: 25%;
+    cursor: pointer;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    cursor: pointer;
+}
+
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #a94442;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    border-radius: 25px;
+}
